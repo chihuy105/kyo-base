@@ -4,11 +4,9 @@
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
-*.lock
 
 # Miscellaneous
 *.class
-*.lock
 *.log
 *.pyc
 *.swp

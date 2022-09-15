@@ -1,6 +1,5 @@
 import 'package:base_component/imports/base_component_import.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:html/dom.dart' as dom;
 import 'package:url_launcher/url_launcher.dart' as UrlLauncher;
 
 ImageRender _networkImageRenderC({
@@ -85,7 +84,7 @@ class HtmlBody extends StatelessWidget {
     String? url,
     RenderContext context,
     Map<String, String> attributes,
-    dom.Element? element,
+    element,
   ) {
     if (url != null) {
       UrlLauncher.launchUrl(Uri.parse(url));

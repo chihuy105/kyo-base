@@ -8,7 +8,6 @@ export 'package:animated_text_kit/animated_text_kit.dart';
 export 'package:auto_route/auto_route.dart';
 export 'package:base_component/core/utils/app_map_utils.dart';
 export 'package:base_component/core/utils/dialog_utils.dart';
-export 'package:bloc/bloc.dart';
 export 'package:cached_network_image/cached_network_image.dart';
 export 'package:connectivity_plus/connectivity_plus.dart';
 export 'package:device_info_plus/device_info_plus.dart';
